@@ -6,3 +6,4 @@ RUN rm -rf /var/www/* \
     && mkdir -p /var/www/vnc/img
 
 COPY index.html /var/www/vnc
+COPY expert.jpg /var/www/vnc/img
